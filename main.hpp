@@ -47,9 +47,9 @@ for (int num=(begin+1) ; num < 999999999999 ; num++){	// "num<999999999999" beca
 		}
     }
 		if (prime) {// if prime is true, aka 1 {
-    return(1) ; //return the value 1, aka true to display prime number
+    return(num) ; //return the value 1, aka true to display prime number
         }
-      return(0) ; //return the value 0, aka false, therefore skipping line 28, and moving on to next number
+      return(0) ; //return the value 0, aka false,  and moving on to next number
   // ^^ having this above return line will ensure this isPrime func is always
   // returning some value, eg if some prime number never exists, it will at least 
   // return the value 0 for false, therefore avoiding any warnings   
@@ -81,7 +81,7 @@ for (int num=(end-1) ; num < 999999999999 ; num--){	// "num<999999999999" becaus
     }
 		
         if (prime) {// if prime is true, aka 1 
-    return(1) ; //return the value 1, aka true, to display prime number
+    return(num) ; //return the value 1, aka true, to display prime number
         }
        return(0) ; //return the value 0, aka false, and moving on to next number
   // ^^ having this above return line will ensure this isPrime func is always
