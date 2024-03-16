@@ -5,7 +5,7 @@ using namespace std;
 // Declare Function Prototypes
 //********************
 
-int getTwoValues(int &, int &) ; 
+void getTwoValues(int &, int &) ; 
 int getNextPrime(int &) ;
 int getPrevPrime(int &) ; 
 
@@ -13,7 +13,7 @@ int getPrevPrime(int &) ;
 // ******************************
 // Implement all your functions here
 // ******************************
-int getTwoValues(int &begin, int &end) {
+void getTwoValues(int &begin, int &end) {
 
 do{
 cout << "Enter two integer values: " << endl ; 
