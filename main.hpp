@@ -47,7 +47,7 @@ for (int num=(begin+1) ; num < 999999999999 ; num++){	// "num<999999999999" beca
 		}
     }
 		if (prime) {// if prime is true, aka 1 {
-    return(num) ; //return the value 1, aka true to display prime number
+    return(num) ; //return the num value, aka true to display prime number
         }
       return(0) ; //return the value 0, aka false,  and moving on to next number
   // ^^ having this above return line will ensure this isPrime func is always
